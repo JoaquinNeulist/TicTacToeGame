@@ -55,6 +55,7 @@
     border-radius: 12px;
     cursor: pointer;
     transition: height 0.3s, width 0.3s; /* Transición suave para el tamaño */
+    
 }
 
 .board {
@@ -63,6 +64,8 @@
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
     margin: auto;
+    height: 300px;
+    width: 300px;
 }
 
 /* Estilos de imágenes dentro de los boxes */
@@ -96,6 +99,7 @@
     .boxes {
         height: 80px;
         width: 80px;
+        margin-top: 5px;
     }
 
     .boxes img {
@@ -129,6 +133,7 @@
     .boxes {
         height: 100px;
         width: 100px;
+        margin-top: 5px;
     }
 
     .boxes img {
@@ -161,6 +166,7 @@
     .boxes {
         height: 120px;
         width: 120px;
+        margin-top: 5px;
     }
 
     .boxes img {
